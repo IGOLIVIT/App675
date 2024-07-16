@@ -11,6 +11,22 @@
 		7853FDD12C40245D00956529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FDD02C40245D00956529 /* ContentView.swift */; };
 		7853FDD32C40245F00956529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7853FDD22C40245F00956529 /* Assets.xcassets */; };
 		7853FDD72C40245F00956529 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7853FDD62C40245F00956529 /* Preview Assets.xcassets */; };
+		7853FDE72C4026FB00956529 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7853FDE62C4026FB00956529 /* Launch Screen.storyboard */; };
+		7853FDE92C40270D00956529 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FDE82C40270D00956529 /* LoadingView.swift */; };
+		7853FDEE2C46C45D00956529 /* R1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FDED2C46C45D00956529 /* R1.swift */; };
+		7853FDF02C46C46100956529 /* R2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FDEF2C46C46100956529 /* R2.swift */; };
+		7853FDF22C46C46600956529 /* U1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FDF12C46C46600956529 /* U1.swift */; };
+		7853FDF42C46C46B00956529 /* Not.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FDF32C46C46B00956529 /* Not.swift */; };
+		7853FDF62C46C47200956529 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FDF52C46C47200956529 /* Reviews.swift */; };
+		7853FDF82C46C47C00956529 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FDF72C46C47C00956529 /* TabBar.swift */; };
+		7853FDFA2C46C48A00956529 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FDF92C46C48A00956529 /* CoreDataStack.swift */; };
+		7853FDFC2C46C49000956529 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FDFB2C46C49000956529 /* Array.swift */; };
+		7853FDFF2C46C49D00956529 /* CoreModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7853FDFD2C46C49D00956529 /* CoreModel.xcdatamodeld */; };
+		7853FE042C46C4C700956529 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FE032C46C4C700956529 /* GamesView.swift */; };
+		7853FE062C46C4CE00956529 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FE052C46C4CE00956529 /* AchievementsView.swift */; };
+		7853FE082C46C4D500956529 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FE072C46C4D500956529 /* SettingsView.swift */; };
+		7853FE0A2C46C7EB00956529 /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853FE092C46C7EB00956529 /* GamesViewModel.swift */; };
+		78B38DA92C46D87D00DD1121 /* AddGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B38DA82C46D87D00DD1121 /* AddGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +36,22 @@
 		7853FDD22C40245F00956529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7853FDD42C40245F00956529 /* App675.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App675.entitlements; sourceTree = "<group>"; };
 		7853FDD62C40245F00956529 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7853FDE62C4026FB00956529 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7853FDE82C40270D00956529 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		7853FDED2C46C45D00956529 /* R1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R1.swift; sourceTree = "<group>"; };
+		7853FDEF2C46C46100956529 /* R2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R2.swift; sourceTree = "<group>"; };
+		7853FDF12C46C46600956529 /* U1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U1.swift; sourceTree = "<group>"; };
+		7853FDF32C46C46B00956529 /* Not.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Not.swift; sourceTree = "<group>"; };
+		7853FDF52C46C47200956529 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		7853FDF72C46C47C00956529 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		7853FDF92C46C48A00956529 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		7853FDFB2C46C49000956529 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		7853FDFE2C46C49D00956529 /* CoreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreModel.xcdatamodel; sourceTree = "<group>"; };
+		7853FE032C46C4C700956529 /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		7853FE052C46C4CE00956529 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		7853FE072C46C4D500956529 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7853FE092C46C7EB00956529 /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		78B38DA82C46D87D00DD1121 /* AddGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +84,7 @@
 		7853FDCD2C40245D00956529 /* App675 */ = {
 			isa = PBXGroup;
 			children = (
+				7853FDDD2C4024A400956529 /* Project */,
 				7853FDCE2C40245D00956529 /* App675App.swift */,
 				7853FDD02C40245D00956529 /* ContentView.swift */,
 				7853FDD22C40245F00956529 /* Assets.xcassets */,
@@ -67,6 +100,125 @@
 				7853FDD62C40245F00956529 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7853FDDD2C4024A400956529 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				7853FDE12C4024BA00956529 /* Views */,
+				7853FDE02C4024B500956529 /* Extensions */,
+				7853FDDF2C4024AF00956529 /* TabBar */,
+				7853FDDE2C4024AB00956529 /* Start */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		7853FDDE2C4024AB00956529 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				7853FDE52C4026F400956529 /* R */,
+				7853FDE42C4026F000956529 /* U */,
+				7853FDE32C4026EB00956529 /* Loading */,
+				7853FDE22C4026E400956529 /* Launch */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		7853FDDF2C4024AF00956529 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7853FDF72C46C47C00956529 /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7853FDE02C4024B500956529 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7853FDF92C46C48A00956529 /* CoreDataStack.swift */,
+				7853FDFB2C46C49000956529 /* Array.swift */,
+				7853FDFD2C46C49D00956529 /* CoreModel.xcdatamodeld */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7853FDE12C4024BA00956529 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7853FE022C46C4BC00956529 /* Games */,
+				7853FE012C46C4B100956529 /* Achievements */,
+				7853FE002C46C4AC00956529 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7853FDE22C4026E400956529 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				7853FDE62C4026FB00956529 /* Launch Screen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		7853FDE32C4026EB00956529 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				7853FDE82C40270D00956529 /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		7853FDE42C4026F000956529 /* U */ = {
+			isa = PBXGroup;
+			children = (
+				7853FDF12C46C46600956529 /* U1.swift */,
+				7853FDF52C46C47200956529 /* Reviews.swift */,
+				7853FDF32C46C46B00956529 /* Not.swift */,
+			);
+			path = U;
+			sourceTree = "<group>";
+		};
+		7853FDE52C4026F400956529 /* R */ = {
+			isa = PBXGroup;
+			children = (
+				7853FDED2C46C45D00956529 /* R1.swift */,
+				7853FDEF2C46C46100956529 /* R2.swift */,
+			);
+			path = R;
+			sourceTree = "<group>";
+		};
+		7853FE002C46C4AC00956529 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7853FE072C46C4D500956529 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7853FE012C46C4B100956529 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				7853FE052C46C4CE00956529 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		7853FE022C46C4BC00956529 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				78B38DA72C46D87400DD1121 /* AddGame */,
+				7853FE032C46C4C700956529 /* GamesView.swift */,
+				7853FE092C46C7EB00956529 /* GamesViewModel.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		78B38DA72C46D87400DD1121 /* AddGame */ = {
+			isa = PBXGroup;
+			children = (
+				78B38DA82C46D87D00DD1121 /* AddGame.swift */,
+			);
+			path = AddGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7853FDE72C4026FB00956529 /* Launch Screen.storyboard in Resources */,
 				7853FDD72C40245F00956529 /* Preview Assets.xcassets in Resources */,
 				7853FDD32C40245F00956529 /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +292,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7853FE082C46C4D500956529 /* SettingsView.swift in Sources */,
+				7853FDF82C46C47C00956529 /* TabBar.swift in Sources */,
 				7853FDD12C40245D00956529 /* ContentView.swift in Sources */,
+				7853FE062C46C4CE00956529 /* AchievementsView.swift in Sources */,
+				7853FE042C46C4C700956529 /* GamesView.swift in Sources */,
 				7853FDCF2C40245D00956529 /* App675App.swift in Sources */,
+				7853FDEE2C46C45D00956529 /* R1.swift in Sources */,
+				7853FDFF2C46C49D00956529 /* CoreModel.xcdatamodeld in Sources */,
+				7853FE0A2C46C7EB00956529 /* GamesViewModel.swift in Sources */,
+				7853FDF02C46C46100956529 /* R2.swift in Sources */,
+				7853FDFA2C46C48A00956529 /* CoreDataStack.swift in Sources */,
+				7853FDFC2C46C49000956529 /* Array.swift in Sources */,
+				7853FDF42C46C46B00956529 /* Not.swift in Sources */,
+				78B38DA92C46D87D00DD1121 /* AddGame.swift in Sources */,
+				7853FDF62C46C47200956529 /* Reviews.swift in Sources */,
+				7853FDE92C40270D00956529 /* LoadingView.swift in Sources */,
+				7853FDF22C46C46600956529 /* U1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,17 +440,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App675/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VibeSync\n";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -290,10 +460,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App675;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,17 +479,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App675/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VibeSync\n";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -326,10 +499,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App675;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -355,6 +529,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7853FDFD2C46C49D00956529 /* CoreModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7853FDFE2C46C49D00956529 /* CoreModel.xcdatamodel */,
+			);
+			currentVersion = 7853FDFE2C46C49D00956529 /* CoreModel.xcdatamodel */;
+			name = CoreModel.xcdatamodeld;
+			path = /Users/igor/Documents/Applications/App675/App675/Project/Extensions/CoreModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7853FDC32C40245D00956529 /* Project object */;
 }
